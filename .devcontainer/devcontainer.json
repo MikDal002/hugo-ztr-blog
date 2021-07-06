@@ -1,0 +1,9 @@
+{
+    "name": "hugo-asciidoc-env",
+    "extensions": [
+		"asciidoctor.asciidoctor-vscode"
+	],
+    "dockerFile": "Dockerfile",
+    "mounts": [
+    ]
+} 
