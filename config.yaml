@@ -156,4 +156,11 @@ markup:
             asciidoctor-diagram
         workingFolderCurrent: true
         trace: true
-        verbose: true
+        verbose: false
+        failure-level: ERROR
+        attributes:
+            icons: font
+            experimental: true
+            sectlinks: true
+            sectanchors: true
+            source-highlighter: pygments
