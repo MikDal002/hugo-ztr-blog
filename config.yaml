@@ -3,6 +3,7 @@ title: Mikołaj Programuje
 theme: hugo-theme-stack
 googleAnalytics: G-2E7Z95WLK6
 defaultContentLanguage: pl
+enableGitInfo: true
 languages:
     pl:
         title: Zaprogramuj to raz!
