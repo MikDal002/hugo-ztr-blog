@@ -153,7 +153,7 @@ markup:
         noClasses: false
     asciidocExt:
         extensions: 
-            asciidoctor-diagram
+            - asciidoctor-diagram
         workingFolderCurrent: true
         trace: true
         verbose: false
