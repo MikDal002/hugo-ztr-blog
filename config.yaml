@@ -5,11 +5,11 @@ googleAnalytics: G-2E7Z95WLK6
 defaultContentLanguage: pl
 languages:
     pl:
-        title: Aby wnerwić się tylko raz
+        title: Zaprogramuj to raz!
         languageName: Polski
         weight: 1
     en:
-        title: To get nervous only once
+        title: Program it once!
         languageName: English
         weight: 2
 
@@ -164,3 +164,15 @@ markup:
             sectlinks: true
             sectanchors: true
             source-highlighter: pygments
+            caution-caption: Ostrożnie
+            important-caption: Ważne
+            note-caption: Uwaga
+            tip-caption: Podpowiedź
+            warning-caption: Ostrzeżenie
+            appendix-caption: Załącznik
+            example-caption: Przykład
+            figure-caption: Ilustracja
+            table-caption: Tabela
+            chapter-label: Rozdział
+            lang: PL
+            hyphens: true

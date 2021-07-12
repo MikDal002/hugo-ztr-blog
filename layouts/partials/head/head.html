@@ -4,6 +4,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/v4-shims.min.css" integrity="sha256-wN7QJaqAwQ03kgUhyN4EU2phRdDkLrQYbFe0EvpQ60U=" crossorigin="anonymous" />
 
 <style>
+    ul,ol,dl{font-size:1em;line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+    dl dt{margin-bottom:.3125em;font-weight:bold}
+    dl dd{margin-bottom:1.25em}
+    dl dd{margin-left:1.125em}
+    dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
+    .unstyled dl dt{font-weight:400;font-style:normal}
     .subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
     .admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
     .admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
@@ -26,6 +32,18 @@
     pre .conum[data-value]{position:relative;top:-.125em}
     b.conum *{color:inherit!important}
     .conum:not([data-value]):empty{display:none}
+
+    ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
+    ul.checklist{margin-left:.625em}
+    ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+    ul.checklist li>p:first-child>input[type="checkbox"]:first-child{margin-right:.25em}
+
+    .subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
+    .admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
+    .hdlist>table,.colist>table{border:0;background:none}
+    .hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
+    td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
+    td.hdlist1{font-weight:bold;padding-bottom:1.25em}
 </style>
 
 {{- $description := partialCached "data/description" . .RelPermalink -}}
