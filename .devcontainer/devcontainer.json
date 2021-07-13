@@ -1,7 +1,8 @@
 {
     "name": "hugo-asciidoc-env",
     "extensions": [
-		"asciidoctor.asciidoctor-vscode"
+		"asciidoctor.asciidoctor-vscode",
+        "davidlday.languagetool-linter"
 	],
     "dockerFile": "dockerfile",
     "mounts": [

@@ -1,0 +1,11 @@
+{
+    "languageToolLinter.serviceType": "public",
+    "languageToolLinter.plainText.languageIds": [
+        "plaintext",
+        "AsciiDoc",
+        "adoc"
+    ],
+    "languageToolLinter.languageTool.motherTongue": "pl-PL",
+    "languageToolLinter.languageTool.preferredVariants": "en-US",
+    "languageToolLinter.diagnosticSeverity": "information"
+}
