@@ -1,3 +1,3 @@
 FROM asciidoctor/docker-asciidoctor
-
+RUN apk add hugo
 # RUN gem install asciidoctor-chart --pre

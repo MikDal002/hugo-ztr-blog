@@ -3,7 +3,7 @@
     "extensions": [
 		"asciidoctor.asciidoctor-vscode"
 	],
-    "dockerFile": "Dockerfile",
+    "dockerFile": "dockerfile",
     "mounts": [
     ]
 } 
