@@ -21,13 +21,14 @@ permalinks:
 params:
     mainSections:
         - Programowanie
+        - log
     featuredImageField: image
     rssFullContent: true
     favicon:
 
     footer:
         since: 2021
-        customText: Mam nadzieję, że blog Ci się podoba!
+        customText: Mam nadzieję, że blog Ci się podoba! Wiele ilustracji pojawiło się na blogu dzięki unsplash.com!
 
     dateFormat:
         published: 2006-01-02

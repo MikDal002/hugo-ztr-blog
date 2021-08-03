@@ -1,0 +1,18 @@
+{
+    "languageToolLinter.plainText.languageIds": [
+        "plaintext",
+        "AsciiDoc",
+        "adoc",
+        "asciidoc"
+    ],
+    "languageToolLinter.languageTool.motherTongue": "pl-PL",
+    "languageToolLinter.languageTool.preferredVariants": "en-US",
+    "languageToolLinter.diagnosticSeverity": "information",
+    "asciidoc.use_asciidoctor_js": false,
+    "asciidoc.use_asciidoctorpdf": true,
+    "languageToolLinter.lintOnOpen": true,
+    "languageToolLinter.managed.classPath": " org.languagetool.server.HTTPServer",
+    "languageToolLinter.managed.jarFile": "/LanguageTool-5.4/languagetool-server.jar",
+    "languageToolLinter.serviceType": "managed",
+    "languageToolLinter.lintOnChange": true
+}

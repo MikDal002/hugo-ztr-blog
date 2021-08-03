@@ -1,0 +1,10 @@
+FROM asciidoctor/docker-asciidoctor
+RUN apk add hugo
+RUN apk add openjdk11
+
+RUN curl https://languagetool.org/download/LanguageTool-stable.zip -o /languagetool.zip
+RUN unzip /languagetool.zip -d /
+RUN rm /languagetool.zip
+# RUN java -cp /LanguageTool-5.4/languagetool-server.jar org.languagetool.server.HTTPServer --port 8081 --allow-origin "*"
+
+# RUN gem install asciidoctor-chart --pre
