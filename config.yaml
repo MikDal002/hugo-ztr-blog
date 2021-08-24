@@ -36,14 +36,16 @@ params:
 
     sidebar:
         emoji: 👨‍💻
-        subtitle: Strona tworzona z pasją do programowania w celu pokazania, że może być ono łatwe.
+        subtitle: Strona tworzona z pasją do programowania w celu pokazania, że może być ono łatwe i przyjemne, a do tego pozbawione powtarzalności!
         avatar:
+            enabled: true
             local: true
             src: img/avatar.png
 
     article:
         math: false
         toc: true
+        readingTime: true
         license:
             enabled: false
             default: Licensed under CC BY-NC-SA 4.0
