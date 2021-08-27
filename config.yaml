@@ -3,6 +3,7 @@ title: Zaprogramuj to raz!
 theme: hugo-theme-stack
 googleAnalytics: G-2E7Z95WLK6
 defaultContentLanguage: pl
+disqusShortname: zaprogramujtoraz
 enableGitInfo: true
 languages:
     pl:
