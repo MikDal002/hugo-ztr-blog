@@ -1,5 +1,5 @@
-baseURL: http://example.org/
-title: Mikołaj Programuje
+baseURL: https://zaprogramujtoraz.pl/
+title: Zaprogramuj to raz!
 theme: hugo-theme-stack
 googleAnalytics: G-2E7Z95WLK6
 defaultContentLanguage: pl
@@ -15,12 +15,13 @@ languages:
         weight: 2
 
 permalinks:
-    post: /p/:slug/
+    programowanie: /:year/:month/:sections/:title
+    log: /dziennik/:year/:month/
     page: /:slug/
 
 params:
     mainSections:
-        - Programowanie
+        - programowanie
         - log
     featuredImageField: image
     rssFullContent: true
