@@ -16,7 +16,7 @@ languages:
         weight: 2
 
 permalinks:
-    programowanie: /:year/:month/:sections/:title
+    programowanie: /:year/:month/:sections/:slug
     log: /dziennik/:year/:month/
     page: /:slug/
 
