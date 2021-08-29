@@ -7,11 +7,11 @@ disqusShortname: zaprogramujtoraz
 enableGitInfo: true
 languages:
     pl:
-        title: Zaprogramuj to raz!
+        title: Zaprogramuj to raz! (beta)
         languageName: Polski
         weight: 1
     en:
-        title: Program it once!
+        title: Program it once! (beta)
         languageName: English
         weight: 2
 
@@ -30,7 +30,7 @@ params:
 
     footer:
         since: 2021
-        customText: Mam nadzieję, że blog Ci się podoba! Wiele ilustracji pojawiło się na blogu dzięki unsplash.com!
+        customText: Proszę pamiętaj, że blog jest na ten moment w wersji poglądowej i może zawierać wiele błędów (ale nie merytoycznych!). Mimo to mam nadzieję, że blog Ci się podoba! Wiele ilustracji pojawiło się na blogu dzięki unsplash.com!
 
     dateFormat:
         published: 2006-01-02
@@ -38,7 +38,7 @@ params:
 
     sidebar:
         emoji: 👨‍💻
-        subtitle: Strona tworzona z pasją do programowania w celu pokazania, że może być ono łatwe i przyjemne, a do tego pozbawione powtarzalności!
+        subtitle: Strona tworzona z pasją do programowania w celu pokazania, że może być ono łatwe i przyjemne, a do tego pozbawione powtarzalności! Na ten moment w wersji beta!
         avatar:
             enabled: true
             local: true
