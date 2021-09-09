@@ -1,5 +1,4 @@
 baseURL: https://zaprogramujtoraz.pl/
-title: Zaprogramuj to raz!
 theme: hugo-theme-stack
 googleAnalytics: G-2E7Z95WLK6
 defaultContentLanguage: pl
@@ -10,27 +9,39 @@ languages:
         title: Zaprogramuj to raz! (beta)
         languageName: Polski
         weight: 1
+        permalinks:
+            log: /dziennik/:year/:month/
+        params:
+            sidebar:
+                subtitle: Strona tworzona z pasją do programowania w celu pokazania, że może być ono łatwe i przyjemne, a do tego pozbawione powtarzalności! Na ten moment w wersji beta!
+            footer:
+                customText: Proszę pamiętaj, że blog jest na ten moment w wersji poglądowej i może zawierać wiele błędów (ale nie merytoycznych!). Mimo to mam nadzieję, że blog Ci się podoba! Wiele ilustracji pojawiło się na blogu dzięki unsplash.com!
     en:
         title: Program it once! (beta)
         languageName: English
         weight: 2
+        permalinks:
+            log: /log/:year/:month/
+        params:
+            sidebar:
+                subtitle: A site created with a passion for programming to show that it can be easy and fun, and without repetition! At this moment in beta version!
+            footer:
+                customText: Please keep in mind that the blog is in preview form at this point and may contain many errors (but not merit errors!). Nevertheless, I hope you enjoy the blog! Many illustrations appeared on the blog thanks to unsplash.com!
 
 permalinks:
     programowanie: /:year/:month/:sections/:slug
-    log: /dziennik/:year/:month/
     page: /:slug/
 
 params:
     mainSections:
         - programowanie
-        - log
+        - dziennik
     featuredImageField: image
     rssFullContent: true
     favicon:
 
     footer:
         since: 2021
-        customText: Proszę pamiętaj, że blog jest na ten moment w wersji poglądowej i może zawierać wiele błędów (ale nie merytoycznych!). Mimo to mam nadzieję, że blog Ci się podoba! Wiele ilustracji pojawiło się na blogu dzięki unsplash.com!
 
     dateFormat:
         published: 2006-01-02
@@ -38,7 +49,6 @@ params:
 
     sidebar:
         emoji: 👨‍💻
-        subtitle: Strona tworzona z pasją do programowania w celu pokazania, że może być ono łatwe i przyjemne, a do tego pozbawione powtarzalności! Na ten moment w wersji beta!
         avatar:
             enabled: true
             local: true
@@ -55,39 +65,6 @@ params:
     comments:
         enabled: true
         provider: disqus
-
-        utterances:
-            repo:
-            issueTerm: pathname
-            label:
-
-        remark42:
-            host:
-            site:
-            locale:
-
-        vssue:
-            platform:
-            owner:
-            repo:
-            clientId:
-            clientSecret:
-
-        # Waline client configuration see: https://waline.js.org/en/reference/client.html
-        waline:
-            serverURL:
-            lang:
-            visitor:
-            avatar:
-            emoji:
-                - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
-            requiredMeta:
-                - name
-                - email
-                - url
-            placeholder:
-            locale:
-                admin: Admin
 
     widgets:
         enabled:
