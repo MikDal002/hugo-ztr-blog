@@ -115,6 +115,11 @@ menu:
           url: /
           weight: -100
           pre: home
+        - indentifier: side-note
+          name: Na marginesie
+          url: /na-marginesie
+          weight: -99
+          pre: na-marginesie
 
 related:
     includeNewer: true
