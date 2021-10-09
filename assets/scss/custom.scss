@@ -18,23 +18,27 @@
 }
 
 .sidebarblock {
-    .content {
-        .listingblock {
-            pre {
-                margin-left: 0px;
-                margin-right: 0px;
-                width: 100%;
-            }
-        }
+    pre {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
     }
 }
 
+pre {
+    white-space: pre;
+    padding: 0.5em;
+}
+
 .admonitionblock {
+    border: 1px solid var(--body-text-color); 
+    -webkit-border-radius: var(--tag-border-radius);
+    border-radius: var(--tag-border-radius);
+    
     table {
         border: none;
-        tr {
-            border: 1px solid var(--body-text-color); 
-        }
         td {
             border: none;
             vertical-align: middle;
