@@ -1,4 +1,3 @@
-baseURL: https://zaprogramujtoraz.pl/
 theme: hugo-theme-stack
 googleAnalytics: G-2E7Z95WLK6
 defaultContentLanguage: pl
@@ -115,6 +114,11 @@ menu:
           url: /
           weight: -100
           pre: home
+        # - indentifier: side-note
+        #   name: Na marginesie
+        #   url: /side-notes
+        #   weight: -99
+        #   pre: side-notes
 
 related:
     includeNewer: true
