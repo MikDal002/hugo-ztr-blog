@@ -1,0 +1,46 @@
+.colist {
+    & table {
+        border: none;
+    }
+
+    & tr {
+        border: none;
+    }
+
+    & td {
+        border: none
+    }
+
+    td:nth-of-type(1) {
+            vertical-align: middle;
+            padding: 0 1em 0;
+    }
+}
+
+.sidebarblock {
+    .content {
+        .listingblock {
+            pre {
+                margin-left: 0px;
+                margin-right: 0px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.admonitionblock {
+    table {
+        border: none;
+        tr {
+            border: 1px solid var(--body-text-color); 
+        }
+        td {
+            border: none;
+            &.icon {
+                font-size: 4rem;
+                vertical-align: middle;
+            }
+        }
+    }
+}
