@@ -37,10 +37,18 @@
         }
         td {
             border: none;
+            vertical-align: middle;
             &.icon {
                 font-size: 4rem;
-                vertical-align: middle;
             }
+        }
+    }
+}
+
+.quoteblock {
+    blockquote {
+        &::before {
+            margin-top: -20px;
         }
     }
 }
