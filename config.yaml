@@ -35,6 +35,7 @@ params:
     mainSections:
         - programowanie
         - dziennik
+        - na-marginesie
     featuredImageField: image
     rssFullContent: true
     favicon:
