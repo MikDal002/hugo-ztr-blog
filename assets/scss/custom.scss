@@ -56,3 +56,18 @@ pre {
         }
     }
 }
+
+.widget--toc {
+    #TableOfContents {
+
+        ol {
+            // list-style-type: none;
+            list-style-position: outside;
+            margin-left: 1em;
+            li:before {
+                // content: '';
+                margin-right: -1em;
+            }
+        }
+    }
+}
