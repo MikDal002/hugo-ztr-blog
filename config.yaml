@@ -151,16 +151,17 @@ markup:
             experimental: true
             sectlinks: true
             sectanchors: true
+            preserveTOC: true
             source-highlighter: pygments
+            hyphens: true
+            lang: PL
             caution-caption: Ostrożnie
             important-caption: Ważne
             note-caption: Uwaga
             tip-caption: Podpowiedź
             warning-caption: Ostrzeżenie
-            appendix-caption: Załącznik
+            appendix-caption: Załącznik 
             example-caption: Przykład
             figure-caption: Ilustracja
             table-caption: Tabela
             chapter-label: Rozdział
-            lang: PL
-            hyphens: true
