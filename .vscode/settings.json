@@ -12,7 +12,7 @@
     "asciidoc.use_asciidoctorpdf": true,
     "languageToolLinter.lintOnOpen": true,
     "languageToolLinter.managed.classPath": " org.languagetool.server.HTTPServer",
-    "languageToolLinter.managed.jarFile": "/LanguageTool-5.5/languagetool-server.jar",
+    "languageToolLinter.managed.jarFile": "/LanguageTool-5.4/languagetool-server.jar",
     "languageToolLinter.serviceType": "managed",
     "languageToolLinter.lintOnChange": true,
     "languageToolLinter.languageTool.ignoredWordsInWorkspace": [
