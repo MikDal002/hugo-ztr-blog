@@ -1,0 +1,8 @@
+[cookieconsent_message]
+other = "Ta witryna korzysta z plików cookie. Niektóre z nich są niezbędne do działania witryny. Pliki cookie służące do śledzenia i analizy są opcjonalne."
+
+[cookieconsent_accept]
+other = "Akceptuj wszystkie"
+
+[cookieconsent_decline]
+other = "Tylko konieczne"
