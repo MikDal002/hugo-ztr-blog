@@ -1,0 +1,8 @@
+[cookieconsent_message]
+other = "I use cookies to provide necessary site functionality and improve your experience. By browsing this website, you consent to use cookies."
+
+[cookieconsent_accept]
+other = "Accept all"
+
+[cookieconsent_decline]
+other = "Only necessary"
