@@ -1,3 +1,28 @@
+
+// Style every hyper link in text.
+.paragraph a, a.bare {
+    text-decoration: underline;
+    transition: all 0.5s ease;
+
+    &:hover {
+        background-color: var(--body-text-color);
+    }
+    
+    &:after {
+        // Not breaking space, and unicode arrow
+        content: "\202F\2934";
+        font-size: small;
+    }
+}
+
+// Remove an arrow after dot in bibliography but left it when there is traditional hyperlink.
+.bibliography {
+    a:nth-child(1):after:not(.bare) {
+        content: none;
+    }
+        
+}
+
 .colist {
     & table {
         border: none;
@@ -12,8 +37,8 @@
     }
 
     td:nth-of-type(1) {
-            vertical-align: middle;
-            padding: 0 1em 0;
+        vertical-align: middle;
+        padding: 0 1em 0;
     }
 }
 
@@ -33,15 +58,17 @@ pre {
 }
 
 .admonitionblock {
-    border: 1px solid var(--body-text-color); 
+    border: 1px solid var(--body-text-color);
     -webkit-border-radius: var(--tag-border-radius);
     border-radius: var(--tag-border-radius);
-    
+
     table {
         border: none;
+
         td {
             border: none;
             vertical-align: middle;
+
             &.icon {
                 font-size: 4rem;
             }
@@ -64,6 +91,7 @@ pre {
             // list-style-type: none;
             list-style-position: outside;
             margin-left: 1em;
+
             li:before {
                 // content: '';
                 margin-right: -1em;
