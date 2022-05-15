@@ -1,3 +1,22 @@
+p {
+    a {
+        text-decoration: underline;
+        transition: all 0.5s ease;
+        &:hover {
+            background-color: var(--body-text-color);
+        }
+
+        &:after {
+            // display: block;
+            content: " \2934";
+            font-size: small;
+            // width: 3px;
+            // height: 5px;
+            // background: transparent url('../images/small_triangle.png') no-repeat;
+        }
+    }
+}
+
 .colist {
     & table {
         border: none;
