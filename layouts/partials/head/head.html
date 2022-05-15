@@ -392,11 +392,6 @@
         border-left: 1px solid #ddd
     }
 
-    blockquote,
-    blockquote p {
-        color: rgba(0, 0, 0, .85)
-    }
-
     @media screen and (min-width:768px) {
 
         h1,
@@ -1216,7 +1211,6 @@
 
     .quoteblock blockquote,
     .quoteblock p {
-        color: rgba(0, 0, 0, .85);
         word-spacing: .1em;
         font-style: italic;
         text-align: justify
@@ -1281,7 +1275,7 @@
     .quoteblock .attribution cite,
     .verseblock .attribution cite {
         display: block;
-        color: rgba(0, 0, 0, .6)
+        color: var(--accent-color-darker)
     }
 
     .quoteblock.abstract blockquote::before,
