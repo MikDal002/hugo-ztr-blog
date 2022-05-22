@@ -1,5 +1,21 @@
 
-// Style every hyper link in text.
+// FIX
+// When standard 10px padding is set then hamburger touches site description 
+// in one column layout
+.hamburger {
+    padding-top: 0px;
+}
+
+// IMPROVEMENT
+// For long TOCs there is no need to scrool when we make TOC longer.
+.widget--toc {
+    #TableOfContents {
+        max-height: 85vh;
+    }
+}
+
+// OWN-STYLE -- START -->
+// Style every hyper link in article's text.
 .paragraph a, a.bare {
     text-decoration: underline;
     transition: all 0.5s ease;
@@ -19,9 +35,9 @@
 .bibliography {
     a:nth-child(1):after:not(.bare) {
         content: none;
-    }
-        
+    } 
 }
+// OWN-STYLE <-- Stop
 
 .colist {
     & table {
@@ -80,22 +96,6 @@ pre {
     blockquote {
         &::before {
             margin-top: -20px;
-        }
-    }
-}
-
-.widget--toc {
-    #TableOfContents {
-
-        ol {
-            // list-style-type: none;
-            list-style-position: outside;
-            margin-left: 1em;
-
-            li:before {
-                // content: '';
-                margin-right: -1em;
-            }
         }
     }
 }
