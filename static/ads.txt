@@ -1,5 +1,5 @@
 disqus.com, 4679997, DIRECT
-google.com, pub-6650322601660058, RESELLER, f08c47fec0942fa0 
+google.com, pub-8135943324048461, DIRECT, f08c47fec0942fa0
 aax.media, AAXN9V74H, DIRECT 
 media.net, 8PR6YK195, RESELLER 
 pubmatic.com, 158984, RESELLER, 5d62403b186f2ace 
