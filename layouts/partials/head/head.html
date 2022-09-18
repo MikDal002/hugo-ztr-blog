@@ -2547,7 +2547,9 @@
 </style>
 
 {{- $description := partialCached "data/description" . .RelPermalink -}}
-<meta name='description' content='{{ $description }}'>
+{{ if $description}}
+    <meta name='description' content='{{ $description }}'>
+{{ end }}
 
 {{- $title := partialCached "data/title" . .RelPermalink -}}
 <title>{{ $title }}</title>
