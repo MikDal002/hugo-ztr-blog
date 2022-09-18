@@ -5,3 +5,13 @@
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.84.1"
   HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "/tags/.net/"
+  to = "/tags/net/"
+  status = 200
+
+[[redirects]]
+  from = "/categories/.net/"
+  to = "/categories/net/"
+  status = 200
