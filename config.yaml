@@ -2,7 +2,7 @@ theme: hugo-theme-stack
 googleAnalytics: G-81LW6YMFWR
 defaultContentLanguage: pl
 disqusShortname: zaprogramujtoraz
-enableGitInfo: true
+# enableGitInfo: true
 languages:
     pl:
         title: Zaprogramuj to raz! (beta)
@@ -165,3 +165,12 @@ markup:
             figure-caption: Ilustracja
             table-caption: Tabela
             chapter-label: Rozdział
+
+security:
+    exec:
+        allow: 
+            - ^(dart-)?sass(-embedded)?$
+            - ^go$
+            - ^npx$
+            - ^postcss$
+            - ^asciidoctor

@@ -20,5 +20,8 @@
         "bromberek",
         "cieściński",
         "m³"
-    ]
+    ],
+    "asciidoc.pdf.engine": "asciidoctor-pdf",
+    "asciidoc.extensions.registerWorkspaceExtensions": true,
+    "asciidoc.extensions.enableKroki": true
 }
